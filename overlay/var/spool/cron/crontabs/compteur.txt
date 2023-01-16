@@ -1,0 +1,12 @@
+  #! /bin/sh
+  
+  cpt=`cat /tmp/compteur.txt' 
+  
+  cpt=${cpt:-0}
+  
+  cpt=`expr $cpt +1`
+ 
+ echo $cpt > /tmp/compteur.txt
+  
+  
+   

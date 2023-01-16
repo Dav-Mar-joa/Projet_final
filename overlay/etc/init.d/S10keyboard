@@ -1,0 +1,5 @@
+#! /bin/sh
+
+loadkmap < /etc/azerty.kmap
+
+echo "Clavier AZERTY " > /tmp/S10keyboard.txt

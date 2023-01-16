@@ -1,0 +1,5 @@
+#! /bin/sh
+
+* * * * * echo "Test crontab" > /var/spool/cron/crontabs/crontabs_date.txt.$(date --utc +\%Y\%m\%d_\%H\%M\%SZ)
+
+
